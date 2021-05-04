@@ -1,0 +1,237 @@
+body {
+    background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em, radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(2.3em 4.57143em at -0.69em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em, radial-gradient(3.5em 6.28571em at 4.55em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(3.5em 6.28571em at -1.05em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em, radial-gradient(#15ffa5, #00ced1);
+    background-color: mediumspringgreen;
+    background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em, 3.5em 11em, 100% 100%;
+    background-repeat: repeat;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.titulo{
+    max-width: 1500px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+.resumen{
+    max-width: 1500px;
+    margin: auto;
+}
+header{
+    width: 100%;
+    height: 15vh;
+}
+header nav {
+    padding: 10px 20px;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    
+}
+
+header nav a {
+    display: block;
+    float: right;
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+header nav .logo {
+    float: left;
+    font-size: 2em;
+}
+header nav a:hover{
+    background-color: mediumspringgreen;
+}
+.dropdown {
+    float: right;
+}
+.dropdown .dropdown_btn {
+    outline: none;
+    border: none;
+    background: inherit;
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.dropdown .dropdown_btn:not(:only-child)::after{
+    content: " ▼";
+}
+.dropdown .dropdown_content {
+    display: none;
+    background-color: #fff;
+    min-width: 140px;
+    position: absolute;
+}
+.dropdown .dropdown_content a {
+    float: none;
+    color: rgba(0,0, 0, 8);
+}
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+.dropdown:hover .dropdown_content a:hover{
+    background: inherit;
+    color: mediumspringgreen;
+}
+
+
+.cartelera {
+    max-width: 1500px;
+    margin: auto;
+
+    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 5em;
+    padding: 40px;
+    width: 100%;
+    
+}
+
+.cartelera div:hover {
+    border:  5px solid mediumspringgreen;
+    transition: all .3s ease;
+}
+
+.img1{
+
+    text-align: center;
+    width: 250px;
+    height: 200px;
+}
+.img2{
+    text-align: center;
+    width: 250px;
+    height: 200px;
+}
+.img3{
+    text-align: center;
+    width: 250px;
+    height: 200px;
+}
+.img4{
+    text-align: center;
+    width: 250px;
+    height: 200px;
+}
+.img5{
+    text-align: center;
+    width: 250px;
+    height: 200px;
+}
+.img6{
+    text-align: center;
+    width: 250px;
+    height: 200px;
+}
+.img7{
+    text-align: center;
+    width: 250px;
+    height: 200px;
+}
+.img8{
+    text-align: center;
+    width: 250px;
+    height: 200px;
+}
+.img9{
+    text-align: center;
+    width: 250px;
+    height: 200px;
+}
+.img10{
+    text-align: center;
+    width: 250px;
+    height: 200px;
+}
+.img11{
+    text-align: center;
+    width: 250px;
+    height: 200px;
+}
+.img12{
+    text-align: center;
+    width: 250px;
+    height: 200px;
+}
+
+
+.sujerencia {
+    max-width: 1500px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    
+}
+
+.mas {
+    max-width: 1500px;
+    margin: auto;
+    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1em;
+    padding: 20px;
+    width: 100%;
+    
+}
+
+
+.img13{
+    width: 250px;
+    height: 550px;
+}
+.img14{
+    width: 250px;
+    height: 550px;
+}
+.img15{
+    width: 250px;
+    height: 550px;
+}
+.img16{
+    width: 250px;
+    height: 550px;
+}
+.img17{
+    width: 250px;
+    height: 550px;
+}
+
+.datos{
+    
+    background-color:mediumspringgreen;
+    color: white;
+    text-align: center;
+}
+.copirng{
+    text-align: center;
+    background-color: white;
+    height: 10vh;
+}
+.video{
+
+    height: 60vh;
+}
+.descarga{
+    max-width: 1500px;
+    margin: auto;
+    text-align: center;
+    height: 70vh;
+}
+.imagen{
+
+    width: 450px;
+    height: 550px;
+}
